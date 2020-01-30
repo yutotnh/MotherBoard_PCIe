@@ -139,9 +139,9 @@ F 3 "" H 3850 4800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 3750 4800 3    50   Input ~ 0
-Pin_B5
+Pin_B6
 Text GLabel 3650 4800 3    50   Input ~ 0
-Pin_B4
+Pin_B5
 $Comp
 L Connector_Generic:Conn_01x07 J4
 U 1 1 5F78C5B1
@@ -191,29 +191,29 @@ F 3 "" H 4750 4800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 4650 4800 3    50   Input ~ 0
-Pin_B5
+Pin_B6
 Text GLabel 4550 4800 3    50   Input ~ 0
-Pin_B4
+Pin_B5
 $Comp
 L Device:LED D1
 U 1 1 5DCE8D42
-P 4150 2650
-F 0 "D1" H 4150 2750 50  0000 C CNN
-F 1 "LED" H 4150 2550 50  0000 C CNN
-F 2 "LED_THT:LED_D4.0mm" H 4150 2650 50  0001 C CNN
-F 3 "~" H 4150 2650 50  0001 C CNN
-	1    4150 2650
+P 3850 2650
+F 0 "D1" H 3850 2750 50  0000 C CNN
+F 1 "LED" H 3850 2550 50  0000 C CNN
+F 2 "LED_THT:LED_D4.0mm" H 3850 2650 50  0001 C CNN
+F 3 "~" H 3850 2650 50  0001 C CNN
+	1    3850 2650
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5DCE8D48
-P 3850 2650
-F 0 "R1" V 3930 2650 50  0000 C CNN
-F 1 "R" V 3850 2650 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3780 2650 50  0001 C CNN
-F 3 "~" H 3850 2650 50  0001 C CNN
-	1    3850 2650
+P 4150 2650
+F 0 "R1" V 4230 2650 50  0000 C CNN
+F 1 "R" V 4150 2650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4080 2650 50  0001 C CNN
+F 3 "~" H 4150 2650 50  0001 C CNN
+	1    4150 2650
 	0    -1   -1   0   
 $EndComp
 $Comp
